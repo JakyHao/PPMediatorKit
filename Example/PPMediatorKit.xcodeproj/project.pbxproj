@@ -41,7 +41,7 @@
 		0551C07C7F5DAD07A9B86DFD /* Pods-PPMediatorKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPMediatorKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-PPMediatorKit_Example/Pods-PPMediatorKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		068B026BDE23AD14A3EF8E6D /* Pods-PPMediatorKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPMediatorKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-PPMediatorKit_Tests/Pods-PPMediatorKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1AB07C9F364D3E99309973FD /* Pods-PPMediatorKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPMediatorKit_Example.release.xcconfig"; path = "Target Support Files/Pods-PPMediatorKit_Example/Pods-PPMediatorKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4DF2AF5642DDCAC452C3C1D3 /* PPMediatorKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PPMediatorKit.podspec; path = ../PPMediatorKit.podspec; sourceTree = "<group>"; };
+		4DF2AF5642DDCAC452C3C1D3 /* PPMediatorKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PPMediatorKit.podspec; path = ../PPMediatorKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* PPMediatorKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPMediatorKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,11 +61,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6073C3284D46902564568D48 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6073C3284D46902564568D48 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		61AA73B0A28C2E53F7F4C990 /* Pods-PPMediatorKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPMediatorKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PPMediatorKit_Tests/Pods-PPMediatorKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BFA62D05A65F3F417BBEE48E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BFA62D05A65F3F417BBEE48E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D97DEE5F483B0A946CA870FA /* Pods_PPMediatorKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPMediatorKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				61AA73B0A28C2E53F7F4C990 /* Pods-PPMediatorKit_Tests.debug.xcconfig */,
 				068B026BDE23AD14A3EF8E6D /* Pods-PPMediatorKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
