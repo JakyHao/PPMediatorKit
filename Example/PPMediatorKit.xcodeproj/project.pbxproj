@@ -302,11 +302,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PPMediatorKit_Example/Pods-PPMediatorKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PPMediatorKit/PPMediatorKit.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPMediatorKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
