@@ -11,7 +11,7 @@
 
 - (UIViewController *)pp_getNoteMainViewController {
     
-    return [self performTarget:@"NoteKit" action:@"getMainController" params:nil shouldCacheTarget:NO];
+    return [self performTarget:@"NoteKit" action:@"getMainViewController" params:nil shouldCacheTarget:NO];
 }
 
 @end
